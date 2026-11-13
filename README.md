@@ -1,6 +1,8 @@
-# Satellites using CubeSat Space Protocol
+<h1 align="center">Satellites using CubeSat Space Protocol</h1>
 
-<img src="logo.png" alt="CSP satellites list logo" width="160">
+<p align="center">
+  <img src="logo.png" alt="CSP satellites list logo" width="220">
+</p>
 
 A source-backed list of satellites with documented or possible use of [CubeSat Space Protocol (CSP)](https://github.com/libcsp/libcsp).
 
