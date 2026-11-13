@@ -8,6 +8,24 @@ A source-backed list of satellites with documented or possible use of [CubeSat S
 
 **Last reviewed: 13 November 2026.** The list contains 86 unique spacecraft: 3 with explicit CSP documentation and 83 candidates requiring further confirmation. It includes historical missions and does not track operational status.
 
+## CSV dataset
+
+Download [satellites.csv](satellites.csv) for use in spreadsheets, scripts, or data analysis. It contains the same 86 spacecraft as the tables below, with one spacecraft per row, a header row, UTF-8 encoding, and comma-separated fields.
+
+| Column | Description |
+|---|---|
+| `satellite_name` | Spacecraft name, including listed aliases. |
+| `documentation_url` | Mission documentation or catalog record. |
+| `evidence_type` | `direct`, `indirect_radio`, `indirect_supplier`, or `unverified`. |
+| `evidence_summary` | What the linked evidence establishes. |
+| `evidence_url` | Source supporting the evidence summary. |
+| `transceiver` | Documented transceiver model, when established. |
+| `radio_mode` | Listed radio framing, when recorded. |
+| `notes` | Evidence limitations or information still needed. |
+| `last_reviewed` | Source review date in `YYYY-MM-DD` format. |
+
+Empty fields mean the information is not established or recorded. Filter `evidence_type` to `direct` for entries with explicit CSP documentation. Please update the CSV and README together when changing an entry.
+
 ## Reading the list
 
 - **Direct:** mission documentation explicitly identifies CSP.
