@@ -1,5 +1,7 @@
 # Satellites using CubeSat Space Protocol
 
+<img src="logo.png" alt="CSP satellites list logo" width="160">
+
 A source-backed list of satellites with documented or possible use of [CubeSat Space Protocol (CSP)](https://github.com/libcsp/libcsp).
 
 **Last reviewed: 13 November 2026.** The list contains 86 unique spacecraft: 3 with explicit CSP documentation and 83 candidates requiring further confirmation. It includes historical missions and does not track operational status.
