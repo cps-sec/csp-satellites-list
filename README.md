@@ -10,7 +10,7 @@ A source-backed list of satellites with documented or possible use of [CubeSat S
 
 ## CSV dataset
 
-Download [satellites.csv](satellites.csv) for use in spreadsheets, scripts, or data analysis. It contains the same 86 spacecraft as the tables below, with one spacecraft per row, a header row, UTF-8 encoding, and comma-separated fields.
+Download [csp-satellites.csv](csp-satellites.csv) for use in spreadsheets, scripts, or data analysis. It contains the same 86 spacecraft as the tables below, with one spacecraft per row, a header row, UTF-8 encoding, and comma-separated fields.
 
 | Column | Description |
 |---|---|
