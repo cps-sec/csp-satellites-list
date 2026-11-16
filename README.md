@@ -8,6 +8,22 @@ A source-backed list of satellites with documented or possible use of [CubeSat S
 
 **Last reviewed: 13 November 2026.** The list contains 146 unique spacecraft: 3 with explicit CSP documentation and 143 candidates requiring further confirmation. It includes historical missions and does not track operational status.
 
+## Research Paper
+
+**Stargate: Security Analysis and Mission-Aware Firewall for the CubeSat Space Protocol** [PDF]([https://github.com/libcsp/libcsp](https://efrenlopez.org/assets/pdf/ramsey2026stargate.pdf))
+If you use this dataset in a scientific publication, please cite us using this **BibTex** entry:
+``` tex
+@inproceedings{ramsey2026stargate,
+  title     = {{Stargate: Security Analysis and Mission-Aware Firewall for the CubeSat Space Protocol}},
+  author    = {Ramsey, Owen and Gonzalez-Cortes, Carlos and L{\'o}pez-Morales, Efr{\'e}n},
+  booktitle = {Proceedings of the IEEE International Conference on Resilience and Integrated Security for Space and Critical Systems (RISC)},
+  year      = {2026},
+  publisher = {IEEE},
+  note      = {CSP Satellite List dataset available at:
+               \url{https://github.com/cps-sec/csp-satellites-list}}
+}
+```
+
 ## CSV dataset
 
 Download [csp-satellites.csv](csp-satellites.csv) for use in spreadsheets, scripts, or data analysis. It contains the same 146 spacecraft as the tables below, with one spacecraft per row, a header row, UTF-8 encoding, and comma-separated fields.
