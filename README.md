@@ -35,6 +35,14 @@ Empty fields mean the information is not established or recorded. Filter `eviden
 
 Satellite names link to mission documentation or a catalog record. Evidence links support the specific statement in that row. “Not established” means the reviewed sources do not establish the information, rather than that the satellite does not use CSP.
 
+### GomSpace products, AX100 hardware and radio modes
+
+GomSpace's [CSP whitepaper][cspwhitepaper] (28 June 2011, p. 2) states that CSP became integrated into its products in 2009. Its example network (p. 3) connects NanoCom, NanoMind, NanoCam and NanoPower through CSP, including a space-to-ground link. This documents established use within GomSpace's product architecture; it does not identify the configuration of every mission that buys a GomSpace component.
+
+For the AX100 specifically, the [manufacturer's datasheet][ax100datasheet] (§4, p. 10) says the radio **uses CSP** to transfer data to and from onboard CSP nodes. Documented operational use of an AX100 with standard firmware is therefore strong evidence of CSP use in that communications subsystem, inferred from the manufacturer's implementation. Record the mission-specific hardware source and this inference explicitly. It does not establish CSP use throughout the spacecraft, and hardware evidence alone does not meet this list's `direct` criterion of an explicit mission CSP statement.
+
+Radio framing and CSP are different layers. **Mode 5 (ASM + Golay)** specifies synchronization and a protected packet-length field around the data. The AX100's framing choices, including HDLC and AX.25, do not by themselves identify the network protocol carried inside them; see the [datasheet's framing and interface descriptions][ax100datasheet] (§2.1, p. 4; §4, p. 10). A catalog's “AX.100 Mode 5” label alone establishes neither a physical AX100 installation nor a CSP payload. Keep such listings as indirect evidence until mission documentation or decoded CSP traffic establishes more.
+
 ## Documented CSP use
 
 | Satellite | Evidence | Transceiver |
@@ -45,7 +53,7 @@ Satellite names link to mission documentation or a catalog record. Evidence link
 
 ## Candidates: radio evidence
 
-GomSpace's [AX100 documentation][ax100] identifies CSP support. The records below list **AX.100 Mode 5** framing; that is indirect evidence, not a confirmed hardware inventory or an explicit mission CSP statement. Listings may be inferred or unconfirmed; consult each record's transmitter citations.
+GomSpace's [AX100 datasheet][ax100datasheet] documents CSP use in the standard radio implementation. The records below list **AX.100 Mode 5** framing; the label alone is indirect evidence, not a confirmed hardware inventory or an explicit mission CSP statement. Listings may be inferred or unconfirmed; consult each record's transmitter citations and the evidence distinction above.
 
 | Satellite / catalog record | Radio evidence | CSP assessment |
 |---|---|---|
@@ -153,7 +161,8 @@ These entries are retained from the original list for follow-up and are not coun
 - IOD-2 is a separate Startical demonstrator, and ECHOES is the project containing both demonstrators; neither is retained as an alias of IOD-1. See the [SESAR mission announcement][iod].
 - Satellite names follow the linked records, including ERNST, CoRAL, MIMAN and ION SCV Charismatic Carlus.
 - Numeric prefixes were removed from names because some were temporary SatNOGS identifiers rather than established NORAD catalog numbers. The linked records preserve identification details.
-- Broken local PDF references were replaced with [GomSpace's published AX100 documentation][ax100]. Hardware support for CSP is kept separate from evidence that a particular mission uses it.
+- Broken local PDF references were replaced with [GomSpace's published AX100 documentation][ax100]. The AX100's documented CSP implementation is distinguished from a mission-specific hardware identification and a catalog framing label.
+- The GomSpace product and AX100 evidence guidance was reviewed on 16 November 2026. This documentation clarification does not reclassify spacecraft or change the dataset counts.
 
 ## Contributing
 
@@ -165,6 +174,8 @@ Additions and corrections are welcome through an issue or pull request. Include 
 [green]: https://www.s5lab.space/index.php/greencube-home/
 [greencsp]: https://www.s5lab.space/index.php/decoding-ledsat-2/
 [ax100]: https://gomspace.com/UserFiles/Subsystems/flyer/gomspace_nanocom_ax100_flyer.pdf
+[ax100datasheet]: https://gomspace.com/wp-content/uploads/2025/09/gs-ds-nanocom-ax100.pdf
+[cspwhitepaper]: https://bytebucket.org/bbruner0/albertasat-on-board-computer/wiki/1.%20Resources/1.1.%20DataSheets/CSP/GS-CSP-1.1.pdf?rev=316ebd49bed49fdbb1d74efdeab74430e7cc726a
 [bro]: https://news.cision.com/gomspace-a-s/r/gomspace-and-unseenlabs-commission-bro-1-in-record-time,c2891775
 [astro]: https://www.astrocast.com/news/astrocast-constellation-keeps-growing/
 [astroprop]: https://mb.cision.com/Main/14387/2574484/877674.pdf
