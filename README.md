@@ -10,7 +10,7 @@ A source-backed list of satellites with documented or possible use of [CubeSat S
 
 ## Research Paper
 
-**Stargate: Security Analysis and Mission-Aware Firewall for the CubeSat Space Protocol** [PDF]([https://github.com/libcsp/libcsp](https://efrenlopez.org/assets/pdf/ramsey2026stargate.pdf))
+**Stargate: Security Analysis and Mission-Aware Firewall for the CubeSat Space Protocol** [PDF](https://github.com/libcsp/libcsp](https://efrenlopez.org/assets/pdf/ramsey2026stargate.pdf)
 
 If you use this dataset in a scientific publication, please cite us using this **BibTex** entry:
 ``` tex
