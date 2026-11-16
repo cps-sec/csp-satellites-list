@@ -6,11 +6,11 @@
 
 A source-backed list of satellites with documented or possible use of [CubeSat Space Protocol (CSP)](https://github.com/libcsp/libcsp).
 
-**Last reviewed: 13 November 2026.** The list contains 86 unique spacecraft: 3 with explicit CSP documentation and 83 candidates requiring further confirmation. It includes historical missions and does not track operational status.
+**Last reviewed: 13 November 2026.** The list contains 146 unique spacecraft: 3 with explicit CSP documentation and 143 candidates requiring further confirmation. It includes historical missions and does not track operational status.
 
 ## CSV dataset
 
-Download [csp-satellites.csv](csp-satellites.csv) for use in spreadsheets, scripts, or data analysis. It contains the same 86 spacecraft as the tables below, with one spacecraft per row, a header row, UTF-8 encoding, and comma-separated fields.
+Download [csp-satellites.csv](csp-satellites.csv) for use in spreadsheets, scripts, or data analysis. It contains the same 146 spacecraft as the tables below, with one spacecraft per row, a header row, UTF-8 encoding, and comma-separated fields.
 
 | Column | Description |
 |---|---|
@@ -121,6 +121,66 @@ GomSpace's [AX100 documentation][ax100] identifies CSP support. The records belo
 | [ION SCV-010](https://db.satnogs.org/satellite/DIVJ-8110-8669-4923-0530/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/DIVJ-8110-8669-4923-0530/#transmitters) | Indirect |
 | [BRO-9](https://db.satnogs.org/satellite/XFVV-4114-4685-9543-2674/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/XFVV-4114-4685-9543-2674/#transmitters) | Indirect |
 | [ION SCV-008](https://db.satnogs.org/satellite/NJEX-6170-8600-1975-0468/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/NJEX-6170-8600-1975-0468/#transmitters) | Indirect; listing requests a citation |
+| [1KUNS-PF (1KUNS)](https://db.satnogs.org/satellite/VWFS-8293-1536-2839-9284/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/VWFS-8293-1536-2839-9284/#transmitters) | Indirect |
+| [AISTECHSAT-3 (Danu Pathfinder)](https://db.satnogs.org/satellite/RERZ-6166-7809-6282-7939/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/RERZ-6166-7809-6282-7939/#transmitters) | Indirect |
+| [AlfaCrux](https://db.satnogs.org/satellite/LVHV-7932-2909-1988-0093/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/LVHV-7932-2909-1988-0093/#transmitters) | Indirect |
+| [AZTECHSAT-1](https://db.satnogs.org/satellite/ABTK-2471-0556-6570-6819/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/ABTK-2471-0556-6570-6819/#transmitters) | Indirect |
+| [BEE-1012](https://db.satnogs.org/satellite/IWEU-2763-6341-8444-5242/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/IWEU-2763-6341-8444-5242/#transmitters) | Indirect |
+| [BLUE DIAMOND](https://db.satnogs.org/satellite/MVIP-1242-2526-2990-4540/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/MVIP-1242-2526-2990-4540/#transmitters) | Indirect |
+| [Bobcat-1 (W8PZS)](https://db.satnogs.org/satellite/RNBQ-9045-6623-3650-8949/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/RNBQ-9045-6623-3650-8949/#transmitters) | Indirect |
+| [BRIO](https://db.satnogs.org/satellite/UFLN-6095-7892-0931-3876/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/UFLN-6095-7892-0931-3876/#transmitters) | Indirect |
+| [BRO 3 (BRO-3)](https://db.satnogs.org/satellite/KMDF-3084-9048-3362-5716/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/KMDF-3084-9048-3362-5716/#transmitters) | Indirect |
+| [BRO-23](https://db.satnogs.org/satellite/NUFQ-3936-2194-4742-8681/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/NUFQ-3936-2194-4742-8681/#transmitters) | Indirect; radio listing unconfirmed; listing cites earlier missions |
+| [BRO-32](https://db.satnogs.org/satellite/ZXRE-2151-7495-1741-1122/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/ZXRE-2151-7495-1741-1122/#transmitters) | Indirect; radio listing unconfirmed; listing cites earlier missions |
+| [BRO-4](https://db.satnogs.org/satellite/KTHL-8173-4603-8149-6885/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/KTHL-8173-4603-8149-6885/#transmitters) | Indirect |
+| [BRO-7 (Breizh Reconnaissance Orbiter 7)](https://db.satnogs.org/satellite/JCFO-8453-2271-5998-5795/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/JCFO-8453-2271-5998-5795/#transmitters) | Indirect |
+| [CANYVAL-C 1U (Timon)](https://db.satnogs.org/satellite/CCNX-9563-2937-7997-4713/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/CCNX-9563-2937-7997-4713/#transmitters) | Indirect |
+| [CANYVAL-C 2U (Pumbaa)](https://db.satnogs.org/satellite/HNHF-6321-7258-0988-3559/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/HNHF-6321-7258-0988-3559/#transmitters) | Indirect |
+| [COSMIC](https://db.satnogs.org/satellite/XFCX-7274-9992-0205-7857/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/XFCX-7274-9992-0205-7857/#transmitters) | Indirect |
+| [Delphini-1 (AUSAT 1)](https://db.satnogs.org/satellite/FCSZ-8739-3200-7406-9928/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/FCSZ-8739-3200-7406-9928/#transmitters) | Indirect |
+| [Drishti](https://db.satnogs.org/satellite/CPTB-9738-1667-2594-4472/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/CPTB-9738-1667-2594-4472/#transmitters) | Indirect; radio listing unconfirmed |
+| [FACSAT-1](https://db.satnogs.org/satellite/EKKN-6409-4479-1170-0607/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/EKKN-6409-4479-1170-0607/#transmitters) | Indirect |
+| [Faraday Phoenix](https://db.satnogs.org/satellite/NDCC-2123-2774-3955-5971/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/NDCC-2123-2774-3955-5971/#transmitters) | Indirect; radio listing unconfirmed |
+| [Foresail-1 (OH2F1S)](https://db.satnogs.org/satellite/CIOM-1903-7117-1067-8603/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/CIOM-1903-7117-1067-8603/#transmitters) | Indirect |
+| [GaindeSat-1A (GaindéSat-1A)](https://db.satnogs.org/satellite/JZKF-3943-1313-5044-2973/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/JZKF-3943-1313-5044-2973/#transmitters) | Indirect |
+| [GOMX4-A](https://db.satnogs.org/satellite/PJOY-0550-6470-9256-2782/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/PJOY-0550-6470-9256-2782/#transmitters) | Indirect |
+| [GOMX4-B](https://db.satnogs.org/satellite/LQPY-8821-4598-4140-0055/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/LQPY-8821-4598-4140-0055/#transmitters) | Indirect |
+| [GREEN DIAMOND](https://db.satnogs.org/satellite/CIWN-4450-5094-0310-9412/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/CIWN-4450-5094-0310-9412/#transmitters) | Indirect |
+| [HONGHU 2](https://db.satnogs.org/satellite/KVEB-1740-5392-8849-3383/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/KVEB-1740-5392-8849-3383/#transmitters) | Indirect |
+| [InnoSat 2](https://db.satnogs.org/satellite/UUUL-8721-0443-0737-3074/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/UUUL-8721-0443-0737-3074/#transmitters) | Indirect |
+| [ION SCV-003](https://db.satnogs.org/satellite/UBOY-6066-4647-0497-6247/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/UBOY-6066-4647-0497-6247/#transmitters) | Indirect |
+| [ION SCV-005](https://db.satnogs.org/satellite/FBKO-0367-5082-1850-6466/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/FBKO-0367-5082-1850-6466/#transmitters) | Indirect |
+| [ION SCV-009](https://db.satnogs.org/satellite/LEIH-8524-4118-4440-0024/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/LEIH-8524-4118-4440-0024/#transmitters) | Indirect |
+| [ION-MK01](https://db.satnogs.org/satellite/GTBY-0816-3198-7674-7320/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/GTBY-0816-3198-7674-7320/#transmitters) | Indirect |
+| [IRIS (ManitobaSat-1)](https://db.satnogs.org/satellite/YUVU-2466-2581-7667-8758/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/YUVU-2466-2581-7667-8758/#transmitters) | Indirect; radio listing unconfirmed |
+| [Ladybird 1 (OBJECT F)](https://db.satnogs.org/satellite/BQJZ-4681-1869-5650-0861/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/BQJZ-4681-1869-5650-0861/#transmitters) | Indirect |
+| [Ladybird 2 (Piao chong 2 Elvis Presley)](https://db.satnogs.org/satellite/ANWM-5538-6946-9678-3215/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/ANWM-5538-6946-9678-3215/#transmitters) | Indirect |
+| [LEDSAT](https://db.satnogs.org/satellite/JLZT-0277-4784-7719-1707/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/JLZT-0277-4784-7719-1707/#transmitters) | Indirect |
+| [LUME-1 (LUME-I)](https://db.satnogs.org/satellite/QXDQ-9755-0160-9983-1765/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/QXDQ-9755-0160-9983-1765/#transmitters) | Indirect |
+| [MARMOTSat (VA7UVS, CO-128)](https://db.satnogs.org/satellite/HPYK-4830-8894-4849-3491/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/HPYK-4830-8894-4849-3491/#transmitters) | Indirect |
+| [Maveric](https://db.satnogs.org/satellite/AJQX-1966-2916-6116-6970/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/AJQX-1966-2916-6116-6970/#transmitters) | Indirect |
+| [NEPT-1 (Neptuno)](https://db.satnogs.org/satellite/SPIN-5533-7821-5854-3271/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/SPIN-5533-7821-5854-3271/#transmitters) | Indirect |
+| [NIUSAT](https://db.satnogs.org/satellite/FCJO-8188-7789-7781-3478/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/FCJO-8188-7789-7781-3478/#transmitters) | Indirect |
+| [NuLIoN (2023-109G)](https://db.satnogs.org/satellite/LXXL-2333-4110-5964-9846/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/LXXL-2333-4110-5964-9846/#transmitters) | Indirect |
+| [NuX-1](https://db.satnogs.org/satellite/AGPD-5250-3566-0713-3550/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/AGPD-5250-3566-0713-3550/#transmitters) | Indirect |
+| [Phoenix One](https://db.satnogs.org/satellite/HHGZ-5215-4378-0264-4038/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/HHGZ-5215-4378-0264-4038/#transmitters) | Indirect |
+| [PlantSat](https://db.satnogs.org/satellite/SJAA-1206-8009-5039-4457/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/SJAA-1206-8009-5039-4457/#transmitters) | Indirect |
+| [RED DIAMOND](https://db.satnogs.org/satellite/CNKC-2118-9597-8621-1044/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/CNKC-2118-9597-8621-1044/#transmitters) | Indirect |
+| [SD-1_SAT](https://db.satnogs.org/satellite/FMVB-7072-2528-1720-4046/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/FMVB-7072-2528-1720-4046/#transmitters) | Indirect |
+| [SEAM 2.0](https://db.satnogs.org/satellite/ISLM-2525-1913-5885-2577/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/ISLM-2525-1913-5885-2577/#transmitters) | Indirect |
+| [SOAR](https://db.satnogs.org/satellite/WGLD-4065-3704-6772-2147/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/WGLD-4065-3704-6772-2147/#transmitters) | Indirect |
+| [SpooQy-1](https://db.satnogs.org/satellite/CTBA-1366-4412-2214-9843/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/CTBA-1366-4412-2214-9843/#transmitters) | Indirect |
+| [SUCHAI-4](https://db.satnogs.org/satellite/LCYV-6577-0051-3956-3172/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/LCYV-6577-0051-3956-3172/#transmitters) | Indirect; radio listing unconfirmed |
+| [SUCHAI2](https://db.satnogs.org/satellite/RXEQ-8793-1241-5795-9118/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/RXEQ-8793-1241-5795-9118/#transmitters) | Indirect |
+| [SUCHAI3](https://db.satnogs.org/satellite/PEQB-0269-2580-9928-0398/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/PEQB-0269-2580-9928-0398/#transmitters) | Indirect |
+| [TIANYI-E](https://db.satnogs.org/satellite/RQVE-6140-7666-1987-0895/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/RQVE-6140-7666-1987-0895/#transmitters) | Indirect; radio listing unconfirmed |
+| [TY-5 (Object B, Tongchuan 1)](https://db.satnogs.org/satellite/HFGS-4792-7267-6562-6858/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/HFGS-4792-7267-6562-6858/#transmitters) | Indirect |
+| [UEL-Y-Sys](https://db.satnogs.org/satellite/QTPA-4263-2736-0029-1519/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/QTPA-4263-2736-0029-1519/#transmitters) | Indirect |
+| [VZLUSAT-2](https://db.satnogs.org/satellite/DJWH-7860-9983-7310-6047/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/DJWH-7860-9983-7310-6047/#transmitters) | Indirect |
+| [WildTrackCube-SIMBA (IKUNS 3)](https://db.satnogs.org/satellite/JHGM-7853-8293-9677-2181/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/JHGM-7853-8293-9677-2181/#transmitters) | Indirect |
+| [Xiaoxiang-2 (TY-2TianYi 2)](https://db.satnogs.org/satellite/RQIQ-3113-9381-2241-7916/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/RQIQ-3113-9381-2241-7916/#transmitters) | Indirect |
+| [Xiaoxiang-3](https://db.satnogs.org/satellite/XWTX-3100-8924-6311-9373/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/XWTX-3100-8924-6311-9373/#transmitters) | Indirect |
+| [Zeus-1](https://db.satnogs.org/satellite/DLIG-3852-5642-1044-4082/) | [AX.100 Mode 5 listing](https://db.satnogs.org/satellite/DLIG-3852-5642-1044-4082/#transmitters) | Indirect |
 
 ## Candidates: supplier evidence
 
@@ -150,6 +210,7 @@ These entries are retained from the original list for follow-up and are not coun
 ## Research notes
 
 - The 88 original rows represent 86 unique spacecraft. Duplicate NUSHSat1 and ALAINSAT-1 entries were consolidated.
+- 60 radio-evidence candidates were added on 14 November 2026 from the SatNOGS DB API: every satellite with an AX.100 Mode 5 transmitter (`/api/transmitters/`) not already in the list. Names, aliases and notes follow the SatNOGS satellite and transmitter records. Records for spacecraft already listed under other sources (GreenCube, PIXL-1) and unidentified objects were not added.
 - IOD-2 is a separate Startical demonstrator, and ECHOES is the project containing both demonstrators; neither is retained as an alias of IOD-1. See the [SESAR mission announcement][iod].
 - Satellite names follow the linked records, including ERNST, CoRAL, MIMAN and ION SCV Charismatic Carlus.
 - Numeric prefixes were removed from names because some were temporary SatNOGS identifiers rather than established NORAD catalog numbers. The linked records preserve identification details.
